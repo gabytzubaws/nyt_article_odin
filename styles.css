@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: white;
+  
+
+}
+.login-button{
+  padding: 10px;
+  background: #282828;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+/*
+.fixed{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+*/
+.h1-container{
+  width: 40%;
+  margin: 20px auto;
+}
+h1{
+  display: inline-block;
+  font-family: georgia,'times new roman',times,serif;
+}
+.second{
+  display: block;
+}
+.img-container{
+  position: relative;
+  text-align: center;
+
+}
+.img-container > img{
+  width: 70%;
+}
+.menu{
+  width: 14px;
+  height: 2px;
+  background-color: black;
+  margin: 2px 0;
+}
+.below-img > p{
+  margin-left: 15%;
+  color: #696969;
+  font-size: large;
+}
+.lightgrey{
+  color:#888888;
+  font-size: 13px;
+}
+a{
+  text-decoration: underline;
+  color: black;
+}
+.svg{
+  display: inline-block;
+  background-color: 	#eee;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+/* below footer */
+.article{
+  width: 45%;
+  margin: 40px auto;
+  position: relative;
+}
+.article-date{
+  display: inline-block;
+  font-size: 13px;
+  padding: 8px 0px;
+}
+.writer-name{
+  font-size: 14px;
+  font-weight: bold;
+}
+.below-footer{
+  margin-top: 20px;
+}
+.socials{
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  right: 0px;
+}
+.article-body > p{
+  margin-bottom: 15px;
+  font-size: larger;
+}
+.bold{
+  font-weight: bold;
+}
+.larger{
+  font-size: larger;
+}
+.css-17dprlf{
+  margin: 0 auto;
+}
+h4, h5{
+  font-weight: normal;
+  color:grey;
+}
+h4{
+  color: #696969;
+}
+h5{
+  margin-bottom: 15px;
+}
+.article-body > img{
+  width: 100%;
+}
+.article-body > a {
+  text-decoration: underline;
+}
+.blue-button{
+  background-color:steelblue;
+  color: white;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 5px;
+}
+footer{
+  margin: 0px 10%;
+  border-top: 1px solid lightgrey;
+  padding-top: 20px;
+  text-align: center;
+}
+.flex-footer{
+  width: 100vh;
+}
+
