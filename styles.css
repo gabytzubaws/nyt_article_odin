@@ -122,6 +122,7 @@ h4{
 }
 h5{
   margin-bottom: 15px;
+  font-size: 11px;
 }
 .article-body > img{
   width: 100%;
@@ -142,7 +143,23 @@ footer{
   padding-top: 20px;
   text-align: center;
 }
-.flex-footer{
-  width: 100vh;
+footer > h3{
+  margin-bottom: 50px;
 }
-
+.flex-footer{
+  width: 90%;
+  margin: 0px auto;
+}
+.flex-item{
+  float: left;
+  width: 32%;
+  margin-left: 3px;
+}
+.flex-footer::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.flex-item > h5{
+  text-align: right;
+}
